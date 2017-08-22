@@ -10,7 +10,7 @@
 或者使用git将项目克隆到本地:
 
 ```
-$ git clone https://github.com/e2master/arcade-game.git
+$ git clone https://github.com/e2master/arc-game.git
 ```
 
 ## 运行
