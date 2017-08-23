@@ -21,6 +21,6 @@ $ git clone https://github.com/e2master/arc-game.git
 
 ## 待完善功能 ##
 
-- 玩家可是设置难度
+- 玩家可以设置难度
 - 玩家可以选择角色
 - 实时显示游戏得分
