@@ -76,6 +76,9 @@ var Engine = (function(global) {
         allEnemies.forEach(function(enemy) {
             enemy.update(dt);
         });
+        allRocks.forEach(function(rock) {
+        	rock.update();
+        });
         player.update();
     }
 
@@ -120,6 +123,10 @@ var Engine = (function(global) {
         allEnemies.forEach(function(enemy) {
             enemy.render();
         });
+        
+        allRocks.forEach(function(rock) {
+        	rock.render();
+        });
 
         player.render();
     }
@@ -140,7 +147,15 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/Gem Blue.png',
+        'images/Gem Green.png',
+        'images/Gem Orange.png',
+        'images/Heart.png',
+        'images/Key.png',
+        'images/Rock.png',
+        'images/Selector.png',
+        'images/Star.png'
     ]);
     Resources.onReady(init);
 
